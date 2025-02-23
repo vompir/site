@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body { 
+    /* background-color: khaki; */
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+    /* text-decoration: underline; */ /* подчёркивание,line-through - зачёркивание */
+}
+.chapter {
+    color: blue;
+}
+#begin {
+    color: orange;
+}
+.text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    /* padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px; */
+    padding: 20px 50px 40px 60px /* top right bottom left */;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    border: 3px solid black;
+    margin: 20px;
+    margin: 45px;
+    width: 500px;
+    vertical-align: top; /* прижать к верху */
+}
+a {
+    padding: 20px;
+    margin: 20px;
+}
+img {
+    width: 500px;
+    display: block;
+    margin: auto; /* картинка по центру */
+    /* float: left; */ /* обтекание текстом */
+}
+/* блочные */
+/* строчные */
+/* строчно-блочные */
+nav {
+    /* static, relative, absolute, fixed, inherit */
+    position: inherit;
+    right: 0px;
+    top: 0px;
+}
+
+.red {
+    background-color: red;
+    font-size: 20px;
+    width: 30vw;
+    height: 30vh;
+}
